@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void GuessNumMain() {
+void game() {
 
 	setlocale(LC_ALL, "ru");
 	srand(time(NULL));
