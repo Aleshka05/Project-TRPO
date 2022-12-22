@@ -11,6 +11,7 @@ void main() {
 	cout << "2. Перевод чисел из 10 системы счисления в другую\n";
 	cout << "3. Простой калькулятор\n";
 	cout << "4. Расписание\n";
+	cout << "5. Выйти из программы\n";
 	do {
 		switch (choice)
 		{
@@ -38,5 +39,5 @@ void main() {
 		default:
 			break;
 		}
-	} while (choice != 4);
+	} while (choice != 5);
 }
