@@ -1,0 +1,519 @@
+@font-face {
+    font-family: Coiny;
+    src: url(coinycyrillic.ttf);
+}
+@font-face {
+    font-family: Coda;
+    src: url(Coda-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #6c6c6c;
+    width: 1666;
+    overflow-x:hidden;
+    height: 5100px;
+}
+header{
+    width: 1666px;
+    height: 150px;
+    background-color: #413E3E;
+}
+
+/* Project_TRPO Project Structure Description GitHub Goals About Us */
+.text1{
+    position: absolute;
+    width: 1456px;
+    height: 79px;
+    left: 100px;
+    top: 50px;
+   
+
+    font-family: 'Coiny';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    font-size: 36px;
+    
+    color: #EEEEEE;
+}   
+header a{
+    text-decoration:none;
+    margin-right: 25px;
+    color:#EEEEEE ;
+    cursor: pointer;
+	line-height: 1;
+}
+
+.a1{
+    text-decoration:none;
+    padding-right: 45px;
+    color:#EEEEEE ;
+}
+.img1{
+    
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 65px;
+    top: 54px;
+
+    background: url(/img/c-.png) no-repeat;
+
+}
+.project{
+    /* Project_TRPO */
+
+position: absolute;
+width: 500px;
+height: 158px;
+left: 180px;
+top: 210px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 91px;
+
+color: #FFFFFF;
+
+
+}
+
+.img2{
+  
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: 150px;
+top: 310px;
+
+background: url(/img/hacker\ \(1\).png);
+
+}
+
+.text2{
+    
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    left: 774px;
+    top: 267px;
+   
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+
+.ol{
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    left: 855px;
+    top: 430px;
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+.goals{
+   
+position: absolute;
+width: 481px;
+height: 180px;
+left: 1121px;
+top: 934px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 136px;
+
+color: #FFFFFF;
+
+
+}
+
+
+.ol2{
+    
+position: absolute;
+width: 1000px;
+height: 600px;
+left: 219px;
+top: 1077px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+}
+li{
+    margin: 20px;
+
+}
+.ol2 li{
+    margin: 40px;
+    list-style-type: none;
+    list-style-image: url(/img/checkmark.png);
+}
+
+.desc{
+ 
+
+position: absolute;
+width: 597px;
+height: 126px;
+left: 153px;
+top: 1760px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 91px;
+
+color: #FFFFFF;
+
+
+}
+.book{
+    /* open-book 1 */
+
+position: absolute;
+width: 64px;
+height: 64px;
+left: 496px;
+top: 1775px;
+
+background: url(/img/open-book.png);
+
+}
+
+.structure{
+  
+
+position: absolute;
+width: 642px;
+height: 142px;
+left: 146px;
+top: 2642px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 91px;
+
+color: #EEEEEE;
+
+
+}
+.str{
+   
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 660px;
+top: 2633px;
+
+background: url(/img/diagram.png);
+
+}
+.ol3{
+    /* Проекта полностью написан на C++. При разработке использовались библиотеки: iostream cslib c.time. Основная структура проекта представляет собой один главный модуль вызывающий подключённые к нему 4 других модуля. Модули взаимосвязанны между собой. То есть существуют переменные передаваемые из одного модуля в другой. */
+
+position: absolute;
+width: 1100px;
+height: 400px;
+left: 238px;
+top: 2775px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 45px;
+
+color: #FFFFFF;
+
+
+}
+.ol3 li{
+    margin: 40px;
+}
+.GitHub{
+
+position: absolute;
+width: 200px;
+height: 217px;
+left: 1121px;
+top: 3466px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 91px;
+
+color: #FFFFFF;
+}
+
+.About{
+
+position: absolute;
+width: 860px;
+height: 189px;
+left: 697px;
+top: 4300px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 91px;
+
+color: #FFFFFF;
+
+
+}
+.round1{
+    border-radius: 100px; 
+    border: 3px solid black; 
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 123px;
+top: 4464px;
+
+background: url(/img/Vlad.jpg);
+
+}
+.round2{
+border-radius: 100px; 
+border: 3px solid black; 
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 428px;
+top: 4464px;
+
+background: url(/img/Vladick.jpg);
+}
+
+.round3{
+    border-radius: 100px; 
+    border: 3px solid black; 
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 751px;
+top: 4464px;
+
+background: url(/img/leshka.jpg);
+
+}
+.round4{
+    border-radius: 100px; 
+    border: 3px solid black; 
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 1084px;
+top: 4464px;
+
+background: url(/img/Anna.jpg);
+
+}
+.round5{
+    border-radius: 100px; 
+    border: 3px solid black; 
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 1364px;
+top: 4464px;
+
+background: url(/img/Zenya.jpg);
+
+}
+
+
+.text4{
+position: absolute;
+width: 350px;
+height: 250px;
+left: 18px;
+top: 4640px;
+
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+
+.text4 .a1{
+    padding-left: 87px;
+}
+.text4 .a2{
+    padding-right: 100px;
+    padding-left: 150px;
+}
+.text4 .a3{
+   
+    padding-left: 75px;
+}
+.text4 .a16{
+   
+    padding-left: 75px;
+}
+.text5{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 314px;
+    top: 4640px;
+    
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.text5 .a4{
+    padding-left: 80px;
+}
+.text5 .a5{
+    padding-right: 100px;
+    padding-left: 150px;
+}
+.text5 .a6{
+   
+    padding-left: 65px;
+}
+.text5 .a17{
+   
+    padding-left: 75px;
+}
+.text6{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 635px;
+    top: 4640px;
+    
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.text6 .a7{
+    padding-left: 120px;
+}
+.text6 .a8{
+    padding-right: 100px;
+    padding-left: 165px;
+}
+.text6 .a9{
+   
+    padding-left: 90px;
+}
+.text6 .a18{
+   
+    padding-left: 75px;
+}
+.text7{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 954px;
+    top: 4640px;
+    
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.text7 .a10{
+    padding-left: 140px;
+}
+.text7 .a11{
+    padding-right: 100px;
+    padding-left: 170px;
+}
+.text7 .a12{
+   
+    padding-left: 95px;
+}
+.text7 .a19{
+   
+    padding-left: 75px;
+}
+.text8{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 1234px;
+    top: 4640px;
+    
+    font-family: 'Coda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.text8 .a13{
+    padding-left: 100px;
+}
+.text8 .a14{
+    padding-right: 100px;
+    padding-left: 170px;
+}
+.text8 .a15{
+   
+    padding-left: 95px;
+}
+.text8 .a20{
+   
+    padding-left: 75px;
+}
