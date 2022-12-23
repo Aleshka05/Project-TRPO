@@ -68,8 +68,6 @@ void number_system() {
     system("chcp 1251");
     system("cls");
 
-    cout << "test";
-
     cout << "¬ведите число: ";
     cin >> a;
     cout << "¬ведите основание системы счислени€: ";
