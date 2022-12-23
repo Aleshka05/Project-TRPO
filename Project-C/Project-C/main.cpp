@@ -11,10 +11,9 @@ int main() {
 	do {
 		cout << "Выберите программу: \n";
 		cout << "1. Игра угадай число\n";
-		cout << "2. Перевод чисел из 10 системы счисления в другую\n";
-		cout << "3. Простой калькулятор\n";
-		cout << "4. Расписание\n";
-		cout << "5. Выйти из программы\n";
+		cout << "2. Простой калькулятор\n";
+		cout << "3. Расписание\n";
+		cout << "4. Выйти из программы\n";
 		cin >> choice;
 
 		switch (choice)
@@ -26,16 +25,11 @@ int main() {
 			break;
 		}
 		case 2: {
-			number_system();
-
-			break;
-		}
-		case 3: {
 			calc();
 
 			break;
 		}
-		case 4: {
+		case 3: {
 			timetable();
 
 			break;
@@ -43,5 +37,5 @@ int main() {
 		default:
 			break;
 		}
-	} while (choice != 5);
+	} while (choice != 4);
 }
