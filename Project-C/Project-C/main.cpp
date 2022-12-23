@@ -22,7 +22,7 @@ void main() {
 			break;
 		}
 		case 2: {
-			system_numser();
+			number_system();
 
 			break;
 		}
