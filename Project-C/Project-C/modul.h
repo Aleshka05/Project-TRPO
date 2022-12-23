@@ -1,5 +1,5 @@
 #pragma once
 void game();
 void number_system();
-void calculator();
+void calc();
 int timetable();

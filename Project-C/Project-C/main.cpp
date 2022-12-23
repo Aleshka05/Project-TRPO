@@ -27,7 +27,7 @@ void main() {
 			break;
 		}
 		case 3: {
-			calculator();
+			calc();
 
 			break;
 		}
