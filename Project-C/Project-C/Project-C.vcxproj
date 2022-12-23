@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="timetable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="modul.h" />

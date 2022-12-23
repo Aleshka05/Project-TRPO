@@ -2,4 +2,4 @@
 void game();
 void system_numser();
 void calculator();
-void schedule();
+void timetable();

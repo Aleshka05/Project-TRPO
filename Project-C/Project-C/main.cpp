@@ -32,7 +32,7 @@ void main() {
 			break;
 		}
 		case 4: {
-			schedule();
+			timetable();
 
 			break;
 		}
