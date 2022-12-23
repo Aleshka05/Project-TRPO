@@ -1,0 +1,5 @@
+﻿  main.cpp
+main.obj : error LNK2001: неразрешенный внешний символ "void __cdecl calc(void)" (?calc@@YAXXZ).
+    Указание на символы, которые определены и могут подойти:
+      "int __cdecl calc(void)" (?calc@@YAHXZ)
+D:\учеба\lab\laba ТРПО\test\Project-C\x64\Release\Project-C.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

@@ -3,16 +3,20 @@
 
 using namespace std;
 
-void main() {
+int main() {
 
+	setlocale(0, "");
 	int choice = 0;
-	cout << "Выберите программу: \n";
-	cout << "1. Игра угадай число\n";
-	cout << "2. Перевод чисел из 10 системы счисления в другую\n";
-	cout << "3. Простой калькулятор\n";
-	cout << "4. Расписание\n";
-	cout << "5. Выйти из программы\n";
+
 	do {
+		cout << "Выберите программу: \n";
+		cout << "1. Игра угадай число\n";
+		cout << "2. Перевод чисел из 10 системы счисления в другую\n";
+		cout << "3. Простой калькулятор\n";
+		cout << "4. Расписание\n";
+		cout << "5. Выйти из программы\n";
+		cin >> choice;
+
 		switch (choice)
 		{
 
@@ -22,17 +26,17 @@ void main() {
 			break;
 		}
 		case 2: {
-			system_numser();
+			number_system();
 
 			break;
 		}
 		case 3: {
-			calculator();
+			calc();
 
 			break;
 		}
 		case 4: {
-			schedule();
+			timetable();
 
 			break;
 		}
