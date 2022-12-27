@@ -13,7 +13,8 @@ int main() {
 		cout << "1. Игра угадай число\n";
 		cout << "2. Простой калькулятор\n";
 		cout << "3. Расписание\n";
-		cout << "4. Выйти из программы\n";
+		cout << "4. Перевод чисел из 10 системы счисления";
+		cout << "5. Выйти из программы\n";
 		cin >> choice;
 
 		switch (choice)
@@ -34,8 +35,13 @@ int main() {
 
 			break;
 		}
+		case 4: {
+			number_system();
+
+			break;
+		}
 		default:
 			break;
 		}
-	} while (choice != 4);
+	} while (choice != 5);
 }

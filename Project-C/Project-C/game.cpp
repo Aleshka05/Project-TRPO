@@ -15,8 +15,10 @@ void game() {
 
 	while (true) {
 
-		cout << "\nВыберите пункт меню:\n1) Написать число!(У вас " <<
-			countTry << " попыток)\n2) Подсказки(" << countOfHelp << ")\n3) Сдаться!\n";
+		cout << "\nВыберите пункт меню:\n";
+		cout << "1) Написать число!(У вас " << countTry << " попыток)\n";
+		cout << "2) Подсказки(" << countOfHelp << ")\n";
+		cout << "3) Сдаться!\n";
 		cin >> n;
 
 		switch (n) {
@@ -97,7 +99,8 @@ void game() {
 				if (number < 50)
 					cout << "Это число от 0 до " << number + rand() % 50 + 50;
 				else
-					cout << "Это число от " << number - rand() % 50 - 20 << " до " << number + rand() % 50 + 20 << endl;
+					cout << "Это число от " << number - rand() % 50 - 20;
+					cout << " до " << number + rand() % 50 + 20 << endl;
 				break;
 
 			case 5:

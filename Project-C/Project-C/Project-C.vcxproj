@@ -130,6 +130,7 @@
     <ClCompile Include="calc.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="system_number.cpp" />
     <ClCompile Include="timetable.cpp" />
   </ItemGroup>
   <ItemGroup>
